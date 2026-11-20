@@ -49,6 +49,8 @@ Voice Portal connects to the internet only for these reasons:
 
 Voice Portal works with the network switched off. Online features are not part of the launch version. If any are added later, they will be opt-in and off by default.
 
+The optional local endpoint for automation (Settings › Integrations, off by default) listens only on this PC's loopback address (127.0.0.1 and ::1) and needs a secret token, so only programs on your own PC can use it, and nothing is sent to other computers.
+
 ## Children
 
 Voice Portal is a general-purpose tool and is not directed at children under 13. We do not knowingly collect information from anyone, including children, because the app collects none.
